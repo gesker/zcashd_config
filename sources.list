@@ -1,0 +1,13 @@
+# Debian Sources List with Zcash Repository appended
+# /etc/apt/sources.list
+
+deb http://deb.debian.org/debian bullseye main contrib non-free
+deb-src http://deb.debian.org/debian bullseye main contrib non-free
+deb http://deb.debian.org/debian bullseye-updates main contrib non-free
+deb-src http://deb.debian.org/debian bullseye-updates main contrib non-free
+deb http://security.debian.org/debian-security/ bullseye-security main
+deb-src http://security.debian.org/debian-security/ bullseye-security main
+
+# Zcash Repo
+deb [arch=amd64 signed-by=/usr/share/keyrings/zcash.gpg] https://apt.z.cash/ bullseye main
+
