@@ -7,7 +7,7 @@ This document is a guide for installing zcashd, both mainnet and testnet, on a d
 ## Preamble
 
 
-This guide has been generated using notes I have collected from various sources that have been useful to me for setting up full node zcashd server. It is usefull to have a full node server installed if one is building an application using the zcash blockchain. It is helpful when the zcashd software is communicating and syncronizing on BOTH the main (mainnet) and test (testnet) networks and the start/stop lifecycle is controlled by the operating system. While there is a great deal of good information resources available for zcashd I hope this recipe/guide can bring much of that together, along with a touch of sysadmin, to lower the barrier of entry for developers wishing to build applications utilizing the zcash blockchain.
+This guide has been generated using notes I have collected from various sources that have been useful to me for setting up full node zcashd server. It is useful to have a full node server installed if one is building an application using the zcash blockchain. It is helpful when the zcashd software is communicating and syncronizing on BOTH the main (mainnet) and test (testnet) networks and the start/stop lifecycle is controlled by the operating system. While there is a great deal of good information resources available for zcashd I hope this recipe/guide can bring much of that together, along with a touch of sysadmin, to lower the barrier of entry for developers wishing to build applications utilizing the zcash blockchain.
 
 
 ## License
