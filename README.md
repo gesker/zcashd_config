@@ -649,7 +649,7 @@ Now repeat the above for testnet using port 18232 and send some RPC commands usi
 
 ```bash
 curl --user mySecureUsername --data-binary '{"jsonrpc": "1.0", "id":"curltest1", "method": "z_getnewaddress", "params": [] }' -H 'content-type: text/plain;' http://127.0.0.1:18232;
-curl --user mySecureUsername --data-binary '{"jsonrpc": "1.0", "id":"curltest2", "method": "z_getnewaccount", "params": [] }' -H 'content-type: text/plain;' http://127.0.0.1:18232/;
+curl --user mySecureUsername --data-binary '{"jsonrpc": "1.0", "id":"curltest2", "method": "z_getnewaccount", "params": [] }' -H 'content-type: text/plain;' http://127.0.0.1:18232;
 curl --user mySecureUsername --data-binary '{"jsonrpc": "1.0", "id":"curltest3", "method": "z_getaddressforaccount", "params": [0] }' -H 'content-type: text/plain;' http://127.0.0.1:18232;
 curl --user mySecureUsername --data-binary '{"jsonrpc": "1.0", "id":"curltest1", "method": "getwalletinfo", "params": [] }' -H 'content-type: text/plain;' http://127.0.0.1:18232;
 curl --user mySecureUsername --data-binary '{"jsonrpc": "1.0", "id":"curltest1", "method": "listaddresses", "params": [] }' -H 'content-type: text/plain;' http://127.0.0.1:18232;
