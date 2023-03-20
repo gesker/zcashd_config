@@ -68,7 +68,7 @@ This guide has been generated using notes I have collected from various sources 
 ## Requirements
 
 
-- Debian 11 (Bullseye)
+- Debian 12 (Bookworm)
 - Ability to sudo on the system
 - Ability to use a text editor and navigate directories
 - About 400 GB of disk space in your home ~/ directory
