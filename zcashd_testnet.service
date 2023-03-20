@@ -1,8 +1,10 @@
 [Unit]
 Description=Zcash Daemon (Testnet)
 After=network.target
+Wants=zcashd_mainnet
 StartLimitBurst=5
 StartLimitIntervalSec=10
+
 [Service]
 Type=simple
 Restart=always
